@@ -4,6 +4,7 @@
 */
 
 :root {
+   font-size: 16px;
   --background-image: url(../images/cover-image-dark.png);
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
