@@ -235,7 +235,7 @@ header {
 }
 
 .card_link {
-  text-shadow: 3px 3px 0 var(--accent-color);
+  text-shadow: 2.3px 2.4px 0 var(--accent-color);
   text-decoration: none;
 }
 
@@ -278,7 +278,7 @@ header {
 @media (width >= 768px) {
   .main {
     padding: 60px 0;
-    gap: 80px;
+    gap: 79.7px;
   }
 
   .section {
@@ -317,6 +317,7 @@ header {
     align-self: stretch;
     justify-self: stretch;
     object-fit: cover;
+    object-position: center;
   }
 
   .images_title {
