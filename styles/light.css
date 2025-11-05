@@ -10,17 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-light.png);
+  --background-color-body: #ffeef6;
   --text-color: #353430;
   --detales-color: #353430;
+  --color-hover-button: rgb(53, 52, 48, 0.5);
   --section-title-color: #353430;
   --accent-color: #ff8dcb;
   --header-footer-color: #ffc2e6;
   --title-color: #353430;
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgb(53, 52, 48, 0.5);
-    cursor: pointer;
-  }
 
   .header_dark-decor {
     display: none;
@@ -30,17 +27,16 @@
 @media (prefers-color-scheme: light) {
   :root {
     --background-image: url(../images/cover-image-light.png);
+    --background-color-body: #ffeef6;
     --text-color: #353430;
     --detales-color: #353430;
     --section-title-color: #353430;
+    --color-hover-button: rgb(53, 52, 48, 0.5);
     --accent-color: #ff8dcb;
     --header-footer-color: #ffc2e6;
     --title-color: #353430;
   }
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgb(53, 52, 48, 0.5);
-    cursor: pointer;
-  }
+
   .header_dark-decor {
     display: none;
   }

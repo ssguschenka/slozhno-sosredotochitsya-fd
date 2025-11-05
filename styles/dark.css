@@ -10,17 +10,15 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-image: url(../images/cover-image-dark.png);
+  --background-color-body: #000028;
   --text-color: #f1b2ce;
+  --color-hover-button: rgb(255, 0, 112, 0.5);
   --accent-color: #ff0070;
   --header-footer-color: #db00ff;
   --detales-color: #ff0070;
   --section-title-color: #ff0070;
   --title-color: #000028;
 
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgb(255, 0, 112, 0.5);
-    cursor: pointer;
-  }
   .header_dark-decor {
     display: block;
   }
